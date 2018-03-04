@@ -33,6 +33,16 @@ local.properties
 
 # sbteclipse plugin
 .target
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/target/
+project/plugins/project/
+.history
+.cache
+.lib/
 
 # Tern plugin
 .tern-project
