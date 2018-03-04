@@ -3,7 +3,11 @@
 # ~~~~
 
 # An example controller showing a sample home page
-GET     /                           controllers.HomeController.index
+GET     /                           	controllers.Assets.at(path="/public/views", file="hosts.html")
 
 # Map static resources from the /public folder to the /assets URL path
-GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+GET     /*file               	controllers.Assets.versioned(path="/public", file: Asset)
+GET     /javascripts/*file              controllers.Assets.at(path="/public/javascripts/", file)
+GET     /views/*file               		controllers.Assets.at(path="/public/views/", file)
+GET     /stylesheets/*file              controllers.Assets.at(path="/public/stylesheets/", file)
+GET     /images/*file               	controllers.Assets.at(path="/public/images/", file)
