@@ -1,5 +1,3 @@
-var hostsApp = angular.module('hosts', []);
-
 hostsApp.controller('hostsController', function ($scope) {
 
 	$scope.Houses = [{ "address":"avinadav yeroham 4 gedera"}, { "address":"magen 4 meitar"}];
