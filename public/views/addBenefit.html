@@ -12,28 +12,45 @@
 <body>
 
     <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <img src="/public/images/iconn.png">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a href="addHost.html"><h1 class="nav-link">אירוח</h1></a>
+                    </li>
+                    <li class="nav-item active">
+                        <h1 class="nav-link">|</h1>
+                    </li>
+                   <li class="nav-item active">
+                       <a href="addBenefit.html"><h1 class="nav-link">הטבות</h1></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         <center>
             <img src="/images/bonus.png">
             <br>
             <h1>הוספת הטבה</h1>
         </center>
 
+        <form>
         <div class="form-group row">
             <h4 for="example-text-input" class="col-2 col-form-label">שם בתי העסק* :</h4>
             <div class="col-10">
-                <input class="form-control" type="text" value="" id="name">
+                <input class="form-control req" required type="text" value="" id="name">
             </div>
         </div>
         <div class="form-group row">
             <h4 for="example-text-input" class="col-2 col-form-label">כתובת* :</h4>
             <div class="col-10">
-                <input class="form-control" type="text" value="" id="address">
+                <input class="form-control" required type="text" value="" id="address">
             </div>
         </div>
         <div class="form-group row">
             <h4 for="example-text-input" class="col-2 col-form-label">ההטבה* :</h4>
             <div class="col-10">
-                <input class="form-control" type="text" value="" id="bonus">
+                <input class="form-control" required type="text" value="" id="bonus">
             </div>
         </div>
         <div class="form-group row">
@@ -50,6 +67,9 @@
         </div>
         <br>
         <h5>השדות המסומנים ב* הם שדות חובה</h5>
+        
+        <button type="submit" class="btn btn-success">הוסף הטבה</button>
+        </form>
     </div>
 </body>
 </html>
