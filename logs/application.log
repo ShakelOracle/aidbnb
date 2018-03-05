@@ -1,9 +1,41 @@
-2018-03-05 05:24:37,975 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-6 - Creating Pool for datasource 'default'
-2018-03-05 05:24:38,377 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-6 - Database [default] connected at jdbc:mysql://localhost/hackathon
-2018-03-05 05:24:39,532 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-6 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2018-03-05 07:07:23,583 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-7 - Creating Pool for datasource 'default'
+2018-03-05 07:07:23,885 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-7 - Database [default] connected at jdbc:mysql://localhost/hackathon
+2018-03-05 07:07:24,863 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-7 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
     play.filters.csrf.CSRFFilter
     play.filters.headers.SecurityHeadersFilter
     play.filters.hosts.AllowedHostsFilter
 
-2018-03-05 05:24:39,624 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-6 - Application started (Dev)
+2018-03-05 07:07:25,034 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-7 - Application started (Dev)
+2018-03-05 07:13:32,498 [INFO] from application in application-akka.actor.default-dispatcher-29 - Shutting down connection pool.
+2018-03-05 07:13:32,888 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-34 - Creating Pool for datasource 'default'
+2018-03-05 07:13:32,904 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-34 - Database [default] connected at jdbc:mysql://localhost/hackathon
+2018-03-05 07:13:33,218 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-34 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-03-05 07:13:33,275 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-34 - Application started (Dev)
+2018-03-05 07:16:52,029 [WARN] from play.filters.CSRF in play-dev-mode-akka.actor.default-dispatcher-34 - [CSRF] Check failed because no or invalid token found in body for /
+2018-03-05 07:16:52,031 [WARN] from play.filters.CSRF in play-dev-mode-akka.actor.default-dispatcher-34 - [CSRF] Check failed with NoTokenInBody for /
+2018-03-05 07:24:34,590 [INFO] from application in application-akka.actor.default-dispatcher-34 - Shutting down connection pool.
+2018-03-05 07:24:34,907 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-154 - Creating Pool for datasource 'default'
+2018-03-05 07:24:34,925 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-154 - Database [default] connected at jdbc:mysql://localhost/hackathon
+2018-03-05 07:24:35,220 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-154 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-03-05 07:24:35,230 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-154 - Application started (Dev)
+2018-03-05 07:36:07,577 [INFO] from application in application-akka.actor.default-dispatcher-41 - Shutting down connection pool.
+2018-03-05 07:36:07,896 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-203 - Creating Pool for datasource 'default'
+2018-03-05 07:36:07,918 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-203 - Database [default] connected at jdbc:mysql://localhost/hackathon
+2018-03-05 07:36:08,318 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-203 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-03-05 07:36:08,326 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-203 - Application started (Dev)

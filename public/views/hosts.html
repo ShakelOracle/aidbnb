@@ -3,6 +3,7 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.4.0/css/bootstrap-flipped.css">
+    <link rel="stylesheet" href="/stylesheets/addBenefit.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -10,15 +11,35 @@
     <script type="text/javascript" src="/javascripts/hosts.js"></script>
 </head>
 <body>
+<div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <img src="/images/iconn.png">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a ><h1 class="nav-link">אירוח</h1></a>
+                    </li>
+                    <li class="nav-item active">
+                        <h1 class="nav-link">|</h1>
+                    </li>
+                   <li class="nav-item active">
+                       <a href="/views/benefits.html"><h1 class="nav-link">הטבות</h1></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     <div ng-app="hosts">
         <div ng-controller="hostsController" ng-init='initMap()'>
         <center>
             <div id="map" style="width: 800px; height: 900px;" ></div>
         </center>
-        <a role="button" class="btn btn-outline-dark" style="float: left; margin-left: 160px; height: 72px;
+        <a role="button" class="btn btn-outline-dark" style="margin-left: 400px;
+    height: 53px;
     margin-bottom: 45px;
-    width: 207px;" href="/views/addHost.html">מוכן לארח? מלא את פרטיך כאן</a>   
+        width: 273px;
+    font-size: 19px;     margin-top: 18px;" href="/views/addHost.html">מוכן לארח? מלא את פרטיך כאן</a>   
         </div>
+    </div>
     </div>
 </body>
 </html>
