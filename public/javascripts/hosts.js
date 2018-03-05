@@ -1,5 +1,3 @@
-var hostsApp = angular.module('hosts', []);
-
 hostsApp.controller('hostsController', function ($scope) {
 
     $scope.initMap = function () {
