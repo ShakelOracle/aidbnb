@@ -1,12 +1,25 @@
 var hostsApp = angular.module('hosts', []);
 
 hostsApp.controller('hostsController', function ($scope) {
-    
-	var mymap = L.map('map', {
-	    center: [51.505, -0.09],
-	    zoom: 13
-	});
-    
-    L.tileLayer('/images/israelMap.jpg', {noWrap: false}).addTo(mymap);
 
+    $scope.initMap = function () {
+        var uluru =[];
+        var geocoder = new google.maps.Geocoder();
+        geocoder.geocode({
+            "address": 'Ben Gurion University of the Negev'
+        }, function (results) {
+            uluru = results[0].geometry.location;
+            
+            var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 13,
+            center: uluru
+        });
+        var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+        });
+        });
+        
+        
+    }
 });
