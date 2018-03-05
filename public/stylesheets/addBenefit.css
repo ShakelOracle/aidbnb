@@ -1,5 +1,5 @@
 .container {
-    background-image: url(/public/images/background2.jpg); 
+    background-image: url(/images/background2.jpg); 
     background-size: cover;
     opacity: 0.9;
  }
